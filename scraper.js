@@ -6,7 +6,7 @@ var timestamp = Math.round( time[ 0 ] * 1e3 + time[ 1 ] / 1e6 );
 //init csv writer
 const createCsvWriter = require('csv-writer').createObjectCsvWriter;
 const csvWriter = createCsvWriter({
-  path: './reviews/app_store_reviews_' + timestamp + '.csv',
+  path: 'app_store_reviews_' + timestamp + '.csv',
   header: [
     {id: 'userName', title: 'User'},
     {id: 'userUrl', title: 'User URL'},
