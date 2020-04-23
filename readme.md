@@ -1,9 +1,9 @@
-Requirements:
+**Requirements:**
 - [node.js](https://nodejs.org/en/)
 - [app-store-scraper](https://www.npmjs.com/package/app-store-scraper)
 - [csv-writer](https://www.npmjs.com/package/csv-writer)
 
-Known issues:
+**Known Issues:**
 1. Special characters may break as some apps do not encode in unicode by default.
 - Microsoft Excel:
 `Open CSV > Data > From Text/CSV > find csv > file origin = Unicode (UTF-8) > Load`
